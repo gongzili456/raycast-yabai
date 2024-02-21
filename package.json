@@ -1,11 +1,11 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "yabai",
-  "title": "yabai",
+  "title": "Yabai",
   "description": "show all windows in spaces",
-  "icon": "command-icon.png",
+  "icon": "icon.png",
   "author": "rory_raycast",
-  "owner": "pop-marat",
+  "owner": "Yabai",
   "categories": [
     "Productivity"
   ],
@@ -13,17 +13,19 @@
   "commands": [
     {
       "name": "index",
-      "title": "Yabai Query",
-      "subtitle": "show all windows in spaces",
-      "description": "show all windows in spaces",
+      "title": "All Windows in Spaces",
+      "description": "yabai show all windows in spaces",
       "mode": "view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.67.1"
+    "@raycast/api": "^1.67.1",
+    "@raycast/utils": "^1.12.5",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.6",
+    "@types/lodash": "^4.14.202",
     "@types/node": "20.8.10",
     "@types/react": "18.2.27",
     "eslint": "^8.51.0",
